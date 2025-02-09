@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Login</h2>
+        <form >
+            <label>UserName:</label>
+            <input type="text" name="username"/>
+            <label>Password</label>
+            <input type="password" name="password"/>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+=====================================================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+</head>
+<body>
+    <div class="reg-form">
+        <h2>Student Registration</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" name="name"/>
+            <br/>
+            <label>Contact:</label>
+            <input type="tel" name="contact">
+            <br/>
+            <label>DOB:</label>
+            <input type="date" name="dob">
+            <br/>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male"/>Male
+            <input type="radio" name="gender" value="Female"/>Female
+            <br/>
+            <label>Course:</label>
+            <select name="course">
+                <option>CSS</option>
+                <option>CSE</option>
+                <option>DSE</option>
+                <option>DBIS</option>
+                <option>HDIS</option>
+            </select>
+            <br/>
+            <input type="checkbox" name="verify"/><label>Discount Applied</label>
+            <br/>
+            <button type="submit">Save</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="reset">Cancel</button>
+        </form>
+    </div>
+</body>
+</html>
