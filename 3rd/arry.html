@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Example</title>
+</head>
+<body>
+    <h1 style="color: aquamarine; font-family: Arial;">Array Example</h1>
+    <p style="color: chocolate; font-size: 25px;" >
+        <script>
+            const names =[ "Akila","kusun","Nadee","Pravi"];
+            // display array element 
+            document.write(names);
+            document.write("<br/><br/>");
+
+            for(let x in names){
+                document.write(names[x]);
+                document.write("<br/>");
+            }
+            document.write("<br/><br/");
+            document.write("Built-in method ");
+            document.write("<br/><br/>");
+            document.write("Built-in methods to work with arrays");
+            document.write("<br/>After adding an elements");
+            names.push("Saman");
+            document.write("<br/>");
+            document.write(names);
+            document.write("<br/>After removing an elements");
+            names.pop();
+            document.write("<br/>");
+            document.write(names);
+            document.write("<br/>Sort the array elements: ");
+            names.sort();
+            document.write("<br/>");
+            document.write(names);
+        </script>
+    </p>
+</body>
+</html>
