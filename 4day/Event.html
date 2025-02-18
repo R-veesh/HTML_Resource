@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1" style="color: darkkhaki; font-size: 30px; font-family: Arial, Helvetica, sans-serif;"
+       onmouseover="ChangeText()" >Good Morning</p> 
+    <form>
+        <label>Full Name</label>
+        <input type="text" id="Name" onkeypress="ChangeBack()">
+        
+    </form>
+    <script>
+            function ChangeText(){
+                let n =document.getElementById("Name");
+                n.style.backgroundColor="red";
+            }
+            function ChangeBack(){
+                let n =document.getElementById("Name");
+                add.value=add.value.toUpperCase();
+            }
+            
+      </script>
+    </p>
+</body>
+</html>

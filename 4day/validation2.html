@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation2</title>
+    <script src="fromValidation.js" type="text/js"></script>
+</head>
+<body>
+    <form>
+    <table>
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" name="name" id="name"></td>
+            <td><span id="name_error" class="error"></span></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email" id="email"></td>
+            <td><span id="email_error" class="error"></span></td>
+        </tr>
+        <tr>
+            <td><label for="experience">Year of experiance</label></td>
+            <td><input type="text" name="exp" id="exp_error"> </td>
+        </tr>
+        <tr>
+            <td> <input type="radio" name="gender" value="Male" id="male">Male
+            <input type="radio" name="gender" id="Female" value="female">Female
+                </td>    
+                    <td><span id="gender_error" class="error"></span></td>
+                    <tr><td><input type="checkbox" id="verify"></td>
+                    <td>above information</td>
+                    <td><span id="verify_error" class="error"></span>
+                </td>
+            </tr>
+        </tr>
+        <tr>
+            <td><input type="submit" value="submit" id="submit" onclick="return validateInput()"></td>
+            <td><input type="reset" value="reset" id="reset" onclick=""></td>
+            
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
